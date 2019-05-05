@@ -1,0 +1,75 @@
+header > div {
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-self: center;
+}
+#brand{   
+    padding: 7px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+#brand > img:hover{
+  -ms-transform: scale(1.2);
+  -webkit-transform:scale(1.2);
+  transform: scale(1.2);
+}
+h1{
+    font-size: 40px; 
+    margin-right: 15px;
+    align-self: center;
+}
+#picture > img{
+    width: 100%;
+    height: 870px;
+    position: absolute;
+}
+#picture > div{
+    width:1196px;
+    height: 166px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#log > img{
+    width:  50px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#navega{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+#navega > ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+#navega > ul > li {
+    display: inline-block;
+    border: 5px;
+    border-color: #000000;
+}
+#navega > ul > li > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 50px;
+    
+}/*
+ nave > ul > li > a:before{
+content: '';
+position: absolute;
+top: 0;
+left:0;
+width: 100%;
+height: 100%;
+background: #000000;
+}
+*/
