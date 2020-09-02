@@ -59,7 +59,7 @@ table {
 header{
     grid-area: top;
     width: 100%;
-    height: 55px;
+    height: 30px;
     background-color: #94b7c1;
     display: flex; 
     
