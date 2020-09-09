@@ -2,12 +2,19 @@ header > div {
     flex-grow: 1;
     justify-content: flex-start;
     align-self: center;
+    margin-left: 5px;
 }
-#brand{   
+#brand{
     padding: 7px;
     margin-left: 15px;
     text-decoration: none;
 }
+
+@media (max-width: 800px) {
+    #brand{padding: 3px;
+        margin-left: 5px;}
+  }
+
 #brand > img:hover{
   -ms-transform: scale(1.2);
   -webkit-transform:scale(1.2);
@@ -19,48 +26,55 @@ h1{
     align-self: center;
 }
 #picture > img{
+    top: 30px;
     width: 100%;
-    height: 870px;
-    position: absolute;
+    height: auto;
+
 }
-#picture > div{
-    width:1196px;
-    height: 166px;
+
+#logo{
+    width: 70%;
     justify-content: center;
     align-items: center;
 
 }
 
+#logo > img{
+    width: 100%;
+    height: auto;
+}
+#log{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    
+}
 
 #log > img{
-    width:  50px;
-    height: 50px;
+    width:  100%;
     padding: 10px;
-    display: flex;
-    align-items: center;
 }
 
 #navega{
     display: flex;
-    justify-content: space-between;
     flex-grow: 1;
 }
 #navega > ul{
     width: 100%;
     display: flex;
-    justify-content: space-around
+    justify-content: end;
 }
 #navega > ul > li {
     display: inline-block;
     border: 5px;
-    border-color: #000000;
+    border-color: #000;
 }
 #navega > ul > li > a{
     text-decoration: none;
-    color: #ffffff;
-    font-size: 25px;
+    color: #000;
+    font-size: 20px;
     font-weight: bold;
-    padding: 0 50px;
+    padding: 20px;
     
 }/*
  nave > ul > li > a:before{
